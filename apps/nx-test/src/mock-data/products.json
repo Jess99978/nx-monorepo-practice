@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "3M 3US-F011-5 活性碳替換濾心",
+    "discountPrice": 2780,
+    "price": 2880,
+    "image": "product-01.jpg"
+  },
+  {
+    "id": 2,
+    "name": "3M™ 無痕17005-HW2ES手套抹布夾兩入組",
+    "discountPrice": 99,
+    "price": 119,
+    "image": "product-02.jpg"
+  },
+  {
+    "id": 3,
+    "name": "3M 魔利除霉劑",
+    "discountPrice": 109,
+    "price": 129,
+    "image": "product-03.jpg"
+  }
+]
