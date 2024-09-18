@@ -1,11 +1,9 @@
 import '../styles.css';
-import NxWelcome from './nx-welcome';
-import MyComponent from '../components/my-component';
+import ProductList from '../components/ProductList';
 export function App() {
   return (
     <div>
-      <NxWelcome title="nx-test" />
-      <MyComponent />
+      <ProductList/>
     </div>
   );
 }
