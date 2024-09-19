@@ -3,11 +3,16 @@ const { join } = require('path');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  prefix:"hola-",
   content: [
-    join(__dirname, 'src/**/*.{ts,tsx,html}'),
+    join(__dirname, '**/*.{ts,tsx,html}'),
     ...createGlobPatternsForDependencies(__dirname),
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary:"rgb(245, 161, 0)"
+      }
+    },
   }
 };
