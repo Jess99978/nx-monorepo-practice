@@ -1,0 +1,15 @@
+ <svg
+          width="16"
+          height="16"
+          viewBox="0 0 16 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="hola-w-4 hola-h-4"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M2 3.5H14V4.5H2V3.5ZM2 7.5H11V8.5H2V7.5ZM2 11.5H14V12.5H2V11.5Z"
+            fill="currentColor"
+          ></path>
+        </svg>
