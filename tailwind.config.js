@@ -3,16 +3,8 @@ const { join } = require('path');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  prefix: 'tlw-',
-  content: [
-    join(__dirname, 'apps/**/*.{ts,tsx,html}'),
-    ...createGlobPatternsForDependencies(__dirname),
-  ],
   theme: {
     extend:{
-      colors: {
-        'primary': '#ec6c00'
-      }
     }
   },
   plugins: [],
