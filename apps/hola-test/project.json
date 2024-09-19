@@ -1,0 +1,9 @@
+{
+  "name": "hola-test",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "hola-test/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project hola-test --web",
+  "targets": {}
+}
