@@ -22,7 +22,7 @@ export default function Product({product}:productProps) {
       <div className="hola-flex-col hola-flex hola-gap-3">
         <p>${product.price}</p>
         <button
-          className="hola-p-3 hola-text-gray-200 hola-bg-black hover:hola-bg-primary hover:hola-text-black"
+          className="hola-p-3 hola-text-gray-200 hola-bg-black hover:hola-bg-primary-500 hover:hola-text-black"
           onClick={addToCart}
         >
           {incart ? '已選購' : '立即選購'}

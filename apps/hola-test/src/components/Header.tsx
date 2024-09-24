@@ -19,7 +19,7 @@ export default function Header() {
         <img src={menu} alt="menu icon" />
       </button>
       <h1 className="hola-text-3xl hola-font-bold">
-        <span className="hola-text-primary">hola&ensp;</span>商品列表頁
+        <span className="hola-text-primary-500">hola&ensp;</span>商品列表頁
       </h1>
       <nav className="hola-hidden xl:hola-block">
         <ul className="hola-flex hola-text-lg hola-gap-5 xl:hola-gap-5">
@@ -27,11 +27,11 @@ export default function Header() {
             return (
               <li
                 key={index}
-                className="hola-py-4 hola-px-4 hover:hola-border-b-primary hover:hola-border-b"
+                className="hola-py-4 hola-px-4 hover:hola-border-b-primary-500 hover:hola-border-b"
               >
                 <a
                   href="#"
-                  className={clsx(link.isSpecial && 'hola-text-primary')}
+                  className={clsx(link.isSpecial && 'hola-text-primary-500')}
                 >
                   {link.name}
                 </a>

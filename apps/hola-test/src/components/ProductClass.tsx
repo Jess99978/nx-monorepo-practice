@@ -68,7 +68,7 @@ class ProductClass extends Component<ProductProps, ProductState> {
           </div>
           <button
             className={clsx(disabled?'hola-p-3 hola-text-gray-700 hola-bg-gray-200':
-              'hola-p-3 hola-text-gray-200 hola-bg-black hover:hola-bg-primary hover:hola-text-black'
+              'hola-p-3 hola-text-gray-200 hola-bg-black hover:hola-bg-primary-500 hover:hola-text-black'
             )}
             onClick={this.reduceStock}
             disabled={disabled}
