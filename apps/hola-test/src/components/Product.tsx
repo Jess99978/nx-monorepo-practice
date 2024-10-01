@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import useCartStore from '../app/zustandStore';
+
 interface productProps {
   product: {
     name: string;
@@ -8,11 +10,12 @@ interface productProps {
 }
 
 export default function Product({product}:productProps) {
-  const [incart, setInCart] = useState(false);
-
-  const addToCart = () => {
-    setInCart(true);
-  };
+  // const [incart, setInCart] = useState(false);
+  // const addToCart = useCartStore((state) => state.addToCart);
+  const addToCart = useCartStore((state) => state.addToCart)
+  // const addToCart = () => {
+  //   setInCart(true);
+  // };
   return (
     <div className="hola-flex-col hola-gap-4 hola-flex">
       <img src={`../../assets/${product.image}`} alt="sofa" />
@@ -23,9 +26,9 @@ export default function Product({product}:productProps) {
         <p>${product.price}</p>
         <button
           className="hola-p-3 hola-text-gray-200 hola-bg-black hover:hola-bg-primary-500 hover:hola-text-black"
-          onClick={addToCart}
+          onClick={()=>addToCart(product)}
         >
-          {incart ? '已選購' : '立即選購'}
+          加入購物車
         </button>
       </div>
     </div>
